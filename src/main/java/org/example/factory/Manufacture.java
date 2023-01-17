@@ -2,7 +2,7 @@ package org.example.factory;
 
 public class Manufacture {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Store store = new Store();
         Factory factory = new Factory(store);
         Sender sender = new Sender(store);
